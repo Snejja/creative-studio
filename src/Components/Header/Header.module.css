@@ -1,0 +1,35 @@
+.header {
+  padding-top: 79px;
+  margin-left: auto;
+  min-width: 42%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  font-family: var(--font-oswald);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.94px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: border 0.1s ease-out;
+}
+
+.link:hover {
+  cursor: pointer;
+  border-bottom: 2px solid var(--green);
+}
+
+.underline {
+  border-bottom: 2px solid var(--green);
+}
+
+.link:hover .underline {
+  border: transparent;
+}
