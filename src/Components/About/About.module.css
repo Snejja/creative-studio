@@ -1,6 +1,6 @@
 .about {
   max-width: var(--max-width);
-  margin: 150px auto 115px;
+  margin: 150px auto -150px;
 }
 
 .wrapper {

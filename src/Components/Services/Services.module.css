@@ -1,0 +1,125 @@
+.services {
+  padding-top: 130px;
+  padding-bottom: 136px;
+  background-color: #fbfbfb;
+}
+
+.content {
+  max-width: var(--max-width);
+
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-oswald);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 3.072px;
+  color: var(--grey);
+}
+
+.gap {
+  width: 45px;
+  height: 2px;
+  background-color: var(--grey);
+}
+
+.gapSmall {
+  margin-top: 15px;
+  width: 35px;
+}
+
+.containers {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container {
+  flex-basis: 373px;
+  background: #ffffff;
+  border-bottom: 3px solid transparent;
+  margin-bottom: 10px;
+}
+
+.header {
+  margin: 50px 48px 19px 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.name {
+  margin: 0;
+  font-family: var(--font-oswald);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+.icon {
+  position: relative;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 20px #dbdbdb;
+}
+
+.icon svg {
+  width: 25px;
+  height: 25px;
+  fill: #cfcdcd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  margin: 19px 48px 19px 43px;
+  font-family: var(--font-openSans);
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1.008px;
+  color: #777777;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 19px 48px 35px 43px;
+  border: transparent;
+  font-family: var(--font-oswald);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  color: #777777;
+  background-color: transparent;
+}
+
+.btn:hover {
+  color: var(--grey);
+}
+
+.container:hover .icon svg {
+  fill: var(--grey);
+}
+
+.container:hover {
+  border-bottom: 3px solid var(--green);
+}
