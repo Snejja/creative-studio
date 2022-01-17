@@ -3,20 +3,24 @@ import styles from './Header.module.css';
 const Header = () => (
   <header className={styles.header}>
     <a href='*' className={styles.link}>
-      wor<span className={styles.underline}>ks</span>
+      works
+      <div className={styles.gap} />
     </a>
     <a href='*' className={styles.link}>
-      abo<span className={styles.underline}>ut</span>
-    </a>
-
-    <a href='*' className={styles.link}>
-      servic<span className={styles.underline}>es</span>
+      about
+      <div className={styles.gap} />
     </a>
     <a href='*' className={styles.link}>
-      bl<span className={styles.underline}>og</span>
+      services
+      <div className={styles.gap} />
     </a>
     <a href='*' className={styles.link}>
-      conta<span className={styles.underline}>ct</span>
+      blog
+      <div className={styles.gap} />
+    </a>
+    <a href='*' className={styles.link}>
+      contact
+      <div className={styles.gap} />
     </a>
   </header>
 );

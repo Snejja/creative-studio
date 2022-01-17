@@ -17,19 +17,20 @@
   letter-spacing: 1.94px;
   color: #ffffff;
   text-transform: uppercase;
-  border-bottom: 2px solid transparent;
-  transition: border 0.1s ease-out;
 }
 
 .link:hover {
   cursor: pointer;
-  border-bottom: 2px solid var(--green);
 }
 
-.underline {
-  border-bottom: 2px solid var(--green);
+.gap {
+  margin-left: auto;
+  width: 18px;
+  height: 2px;
+  background-color: var(--green);
+  transition: width 0.3s linear;
 }
 
-.link:hover .underline {
-  border: transparent;
+.link:hover .gap {
+  width: 100%;
 }

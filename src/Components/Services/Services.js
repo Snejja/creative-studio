@@ -27,6 +27,7 @@ const Services = () => (
             eiusmod tempor incididunt.
           </p>
           <button className={styles.btn}>Read more</button>
+          <div className={styles.border} />
         </div>
         <div className={styles.container}>
           <div className={styles.header}>
@@ -43,6 +44,7 @@ const Services = () => (
             eiusmod tempor incididunt.
           </p>
           <button className={styles.btn}>Read more</button>
+          <div className={styles.border} />
         </div>
         <div className={styles.container}>
           <div className={styles.header}>
@@ -59,6 +61,7 @@ const Services = () => (
             eiusmod tempor incididunt.
           </p>
           <button className={styles.btn}>Read more</button>
+          <div className={styles.border} />
         </div>
       </div>
     </div>

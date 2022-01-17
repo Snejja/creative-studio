@@ -55,6 +55,7 @@
   letter-spacing: 1.152px;
   color: white;
   opacity: 0.4;
+  transition: opacity 0.3s linear;
 }
 
 .page:hover {

@@ -81,11 +81,16 @@
 .icon svg {
   width: 25px;
   height: 25px;
-  fill: #cfcdcd;
+  fill: var(--lightGrey);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: fill 0.3s linear;
+}
+
+.container:hover .icon svg {
+  fill: var(--grey);
 }
 
 .text {
@@ -108,18 +113,23 @@
   line-height: 15px;
   letter-spacing: 0.64px;
   text-transform: uppercase;
-  color: #777777;
+  color: var(--lightGrey);
   background-color: transparent;
+  transition: color 0.3s linear;
 }
 
 .btn:hover {
   color: var(--grey);
 }
 
-.container:hover .icon svg {
-  fill: var(--grey);
+.border {
+  height: 3px;
+  background-color: var(--green);
+  margin-left: auto;
+  width: 0;
+  transition: width 0.3s linear;
 }
 
-.container:hover {
-  border-bottom: 3px solid var(--green);
+.container:hover .border {
+  width: 100%;
 }
