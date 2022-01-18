@@ -1,0 +1,154 @@
+.works {
+  max-width: var(--max-width);
+  margin: 209px auto 0;
+}
+
+.section {
+  width: max-content;
+  margin-top: -350px;
+  margin-bottom: 145px;
+}
+
+.sectionRight {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.sectionLeft {
+  margin-right: auto;
+}
+
+.section:first-of-type {
+  width: 45%;
+  margin-top: 0;
+}
+
+.section:last-of-type {
+  margin-top: -230px;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-oswald);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 3.072px;
+  color: var(--grey);
+}
+
+.gap {
+  margin-top: 10px;
+  width: 45px;
+  height: 2px;
+  background-color: var(--grey);
+}
+
+.image {
+  position: relative;
+  height: 455px;
+  width: 444px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.header {
+  width: 70%;
+  position: absolute;
+  font-family: var(--font-oswald);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 3.072px;
+  text-transform: uppercase;
+  color: #252525;
+  bottom: 0;
+}
+
+.headerRight {
+  margin-left: -127px;
+  left: 0;
+}
+
+.headerLeft {
+  margin-right: -127px;
+  right: 0;
+}
+
+.section:hover .header {
+  text-decoration: 3px line-through var(--green);
+}
+
+.type {
+  margin: 23px 0 0;
+  font-family: var(--font-openSans);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 1.152px;
+  color: var(--grey);
+}
+
+.text {
+  margin-top: 17px;
+  font-family: var(--font-openSans);
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.832px;
+  color: var(--lightGrey);
+}
+
+.btnRead {
+  display: block;
+  margin: 20px auto 0;
+  font-family: var(--font-openSans);
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.832px;
+  text-transform: uppercase;
+  color: transparent;
+  border: transparent;
+  background-color: transparent;
+  transition: all 0.3s linear;
+}
+
+.section:hover .btnRead {
+  text-decoration: 2px line-through var(--green);
+  color: var(--grey);
+}
+
+.section:hover .btnRead:hover {
+  cursor: pointer;
+  text-decoration: transparent;
+}
+
+.content {
+  width: 65%;
+}
+
+.contentLeft {
+  margin-left: auto;
+}
+
+.contentRight {
+  text-align: right;
+}
+
+.btnView {
+  font-family: var(--font-oswald);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: var(--grey);
+  border: transparent;
+  background-color: transparent;
+}
+
+.btnView:hover {
+  color: black;
+}

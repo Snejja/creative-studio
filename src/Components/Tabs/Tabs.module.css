@@ -1,0 +1,29 @@
+.tabs {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.tab {
+  font-family: var(--font-openSans);
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.832px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--lightGrey);
+  transition: color 0.3s linear;
+  border: transparent;
+  background-color: transparent;
+}
+
+.tab:hover {
+  color: var(--grey);
+}
+
+.tabActive {
+  color: var(--grey);
+  font-weight: 700;
+}
