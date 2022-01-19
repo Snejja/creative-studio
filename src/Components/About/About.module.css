@@ -89,6 +89,7 @@
   }
 
   .about {
+    margin-bottom: 107px;
     display: grid;
     grid-template-columns: repeat(2, 200px);
     row-gap: 10px;

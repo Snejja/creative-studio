@@ -151,4 +151,39 @@
 
 .btnView:hover {
   color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1190px) {
+  .works {
+    margin-top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section {
+    width: 100%;
+    margin: 0 auto 50px;
+  }
+
+  .section:first-of-type {
+    width: 70%;
+  }
+
+  .section:last-of-type {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .image {
+    margin: 0 auto;
+  }
+
+  .contentLeft,
+  .contentRight {
+    text-align: center;
+    margin: 0 auto;
+  }
 }

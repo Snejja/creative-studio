@@ -9,8 +9,10 @@ import styles from './Services.module.css';
 const Services = () => (
   <div className={styles.services}>
     <div className={styles.content}>
-      <h1 className={styles.title}>Our Services</h1>
-      <div className={styles.gap} />
+      <div className={styles.heading}>
+        <h1 className={styles.title}>Our Services</h1>
+        <div className={styles.gap} />
+      </div>
       <div className={styles.containers}>
         <div className={styles.container}>
           <div className={styles.header}>

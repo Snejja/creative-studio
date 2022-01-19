@@ -6,7 +6,6 @@
 
 .content {
   max-width: var(--max-width);
-
   margin: 0 auto;
 }
 
@@ -45,7 +44,7 @@
   flex-basis: 373px;
   background: #ffffff;
   border-bottom: 3px solid transparent;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .header {
@@ -132,4 +131,19 @@
 
 .container:hover .border {
   width: 100%;
+}
+
+@media screen and (max-width: 1190px) {
+  .containers {
+    flex-direction: column;
+  }
+
+  .container {
+    max-width: 380px;
+    flex-basis: auto;
+  }
+
+  .heading {
+    margin-left: 15%;
+  }
 }
