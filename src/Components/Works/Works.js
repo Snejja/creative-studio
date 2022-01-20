@@ -70,6 +70,7 @@ const Works = () => {
             [styles.sectionRight]: index % 2 === 0,
             [styles.sectionLeft]: index % 2 !== 0,
           })}
+          key={el.id}
         >
           <div
             className={styles.image}

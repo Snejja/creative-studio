@@ -12,6 +12,7 @@ const Tabs = ({ tabs }) => {
         <button
           onClick={() => setActiveTab(id)}
           className={cn(styles.tab, { [styles.tabActive]: tabActive === id })}
+          key={id}
         >
           {title}
         </button>
