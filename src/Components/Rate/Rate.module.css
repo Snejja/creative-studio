@@ -1,0 +1,9 @@
+.star {
+  width: 15px;
+  height: 15px;
+  fill: var(--lightGrey);
+}
+
+.starFull {
+  fill: var(--grey);
+}
