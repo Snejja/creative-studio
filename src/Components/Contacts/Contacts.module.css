@@ -1,0 +1,59 @@
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.container {
+  padding: 72px 0 100px;
+  width: 50%;
+  text-align: center;
+  background-color: #fbfbfb;
+}
+
+.contacts svg {
+  width: 35px;
+  height: 35px;
+  fill: var(--grey);
+}
+
+.containerGreen {
+  background-color: #70bd59;
+}
+
+.containerGreen svg {
+  fill: white;
+}
+
+.title {
+  margin: 19px 0 22px;
+  font-family: var(--font-oswald);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 2.66667px;
+  color: var(--grey);
+}
+
+.titleWhite {
+  color: #ffffff;
+}
+
+.text {
+  margin: 0;
+  font-family: var(--font-openSans);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1.55556px;
+  color: var(--grey);
+  opacity: 0.8;
+}
+
+.textWhite {
+  color: #ffffff;
+}
