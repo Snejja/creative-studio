@@ -5,6 +5,7 @@ import Works from '../Works';
 import Team from '../Team';
 import Testimonials from '../Testimonials';
 import Contacts from '../Contacts';
+import Footer from '../Footer';
 
 const App = () => (
   <div className='app'>
@@ -15,6 +16,7 @@ const App = () => (
     <Team />
     <Testimonials />
     <Contacts />
+    <Footer />
   </div>
 );
 

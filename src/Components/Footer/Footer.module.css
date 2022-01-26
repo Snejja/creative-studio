@@ -1,0 +1,53 @@
+.footer {
+  width: 100%;
+}
+
+.contacts {
+  padding: 142px 0 81px;
+  background-color: #2e2e2e;
+  text-align: center;
+}
+
+.address,
+.phone,
+.mail,
+.text {
+  margin: 0;
+  font-family: var(--font-oswald);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0.832px;
+  color: var(--lightGrey);
+}
+
+.address {
+  padding-bottom: 10px;
+}
+
+.socialNetworks {
+  padding-top: 39px;
+}
+
+.socialNetworks svg {
+  height: 35px;
+  width: 35px;
+  fill: var(--lightGrey);
+  margin: 0 21px;
+  transition: all 0.3s linear;
+}
+
+.socialNetworks svg:hover {
+  cursor: pointer;
+  fill: white;
+}
+
+.copyright {
+  background-color: var(--grey);
+  text-align: center;
+}
+
+.text {
+  padding: 21px 0;
+}
